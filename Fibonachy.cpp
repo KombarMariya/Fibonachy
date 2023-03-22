@@ -7,6 +7,10 @@ int fib(int n) {
 int main() {
 	int n;
 	cout << "n = "; cin >> n;
-	cout << fib(n) << endl;
+	int i = 1;
+	while (i <= n) {
+		cout << fib(i) << endl;
+		i++;
+	}
 	cout << "Hello, World!";
 }
